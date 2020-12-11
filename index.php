@@ -80,9 +80,11 @@ body{margin:40px;}
     </div>
     <div class="container">
         <div class="jumbotron">
-        <h3>CSRF  Challenge</h3>
-        <p>Its purpose is to learn and test CSRF attacks legally and in real-world understandable actions in a variety of scenarios.</p>
-        <h3>Cross-Site Request Forgery (CSRF) </h3>
+        <h3>CSRF  Demonstration</h3>
+        <p>Cross-site request forgery (also known as CSRF) is a web security vulnerability that allows an attacker to induce users to perform actions that they do not intend to perform. It allows an attacker to partly circumvent the same origin policy, which is designed to prevent different websites from interfering with each other.
+Most interesting CSRF vulnerabilities arise due to mistakes made in the validation of CSRF tokens.
+</p>
+        <h3>What is CSRF ? </h3>
         <p>CSRF It is an attack on web users, where attackers write scripts to lure and force the web user to do things inadvertently. Or not realizing It will cause such actions to be used by the right of the user of that website. For example, if Website A is running with user B rights when attacked by CSRF vulnerability, the command will be executed with user B privilege.On Web A, an example of the impact when the attack succeeds is Password or email change Of website users, making users send messages to other people (spam), adding new users or using web capabilities with administrator rights</p>
         <p>Sources: <a href="https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)">OWASP.org</a></p>
         <hr/>
